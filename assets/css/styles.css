@@ -1,0 +1,75 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background-color: rgb(232, 232, 232);
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-content p {
+  font-size: 16px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  margin: 10px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.precio {
+  display: flex;
+  justify-content: start;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.result {
+  text-align: center;
+}
+
+#colorTotal {
+  display: none;
+  background: white;
+  min-width: 20px;
+  min-height: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-bottom: -5px;
+}
